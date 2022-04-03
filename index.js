@@ -23,5 +23,16 @@ document.getElementById("new-post").addEventListener("submit", event => {
         title: postTitle,
         body: postBody
     }
-    console.log(data)
+
+    const operation = {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: {
+            "Content-type": "application/json"
+                }
+        }
+
+    fetch("https://apis.scrimba.com/jsonplaceholder/posts",operation)
+        .then(res => res.json())
+        .then(data => console.log(data))
 })
