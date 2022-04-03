@@ -25,5 +25,40 @@ nav > h2 {
 }
 
 #blog-list {
-    padding: 55px 10px 10px;
+    padding: 0px 10px 10px;
+}
+
+form {
+    display: grid;
+    padding: 80px 10px 0px;
+    background-color: lightblue;
+}
+
+input#post-title,
+textarea#post-body {
+    margin-bottom: 10px;
+}
+
+button {
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    background: purple;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+button:hover,
+button:focus {
+    color: white;
+    transform: scale(1.02);
+}
+
+button:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
 }
