@@ -3,6 +3,7 @@
 ## Description
 1. Pulling down data from https://apis.scrimba.com/jsonplaceholder/posts API and grab the top 5 posts
 2. Provides the ability to post a new blog and bring it to the top
+3. Get data from API and display that data in a list and interact with the API by sending data to the server
 
 ## Demo
 This app has been deployed online: https://main.d3issr186u0z3.amplifyapp.com/
